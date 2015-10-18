@@ -1,0 +1,6 @@
+environment: production
+exclude:
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - Guardfile
