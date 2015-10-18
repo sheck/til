@@ -1,4 +1,5 @@
 environment: production
+baseurl: "/til"
 exclude:
   - Rakefile
   - Gemfile
