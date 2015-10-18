@@ -1,4 +1,13 @@
 ---
 layout: default
 ---
-<h1>Hello</h1>
+<h1>Today I Learned</h1>
+<p>Code snippets, life lessons, and the like. By <a href="http://nicksheck.com">Nick Sheck</a>.</p>
+
+<hr>
+
+{% for post in site.posts %}
+  <h2>{{ post.date | date: '%B %d, %Y' }}</h2>
+  {{ post.content }}
+  <hr class="stub">
+{% endfor %}
