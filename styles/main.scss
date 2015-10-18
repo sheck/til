@@ -15,7 +15,9 @@ body {
   line-height: 1.4;
 }
 code {
-  font-family: 'Inconsolata', monospace;
+  font-family: inherit;
+  font-size: inherit;
+  color: #9fca56;
 }
 hr {
   border: none;
