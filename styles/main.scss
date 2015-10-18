@@ -6,13 +6,16 @@
 body {
   background: #151718;
   color: #d4d7d6;
-  font-size: 1.1em;
+  font-size: 1em;
   font-family: 'Inconsolata', monospace;
-  max-width: 45em;
+  max-width: 45rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0 1em;
   line-height: 1.4;
+  @media (min-width: 47rem) {
+    font-size: 1.1em;
+  }
 }
 code {
   font-family: inherit;
