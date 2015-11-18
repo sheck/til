@@ -17,6 +17,9 @@ body {
     font-size: 1.1em;
   }
 }
+pre {
+  overflow: scroll;
+}
 code {
   font-family: inherit;
   font-size: inherit;
