@@ -1,3 +1,3 @@
 task :default do
- system "jekyll serve --config _config.yml,_development.yml --unpublished"
+ system "bin/jekyll serve --config _config.yml,_development.yml --unpublished"
 end
